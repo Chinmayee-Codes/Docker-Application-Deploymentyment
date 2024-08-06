@@ -107,10 +107,10 @@ Create an index.php file for the web application:
 
 ```bash
 <?php
-$servername = "db";
-$username = "root";
-$password = "example";
-$dbname = "myDB";
+$servername = "10.128.0.3";
+$username = "chinmayee";
+$password = "123";
+$dbname = "my_database";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
